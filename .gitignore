@@ -1,3 +1,54 @@
+# =====================
+# Environment & Secret
+# =====================
 .env
-.venv
-.logs/app.log
+.env.*
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# =====================
+# Virtual Environment
+# =====================
+.venv/
+venv/
+env/
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
+
+# =====================
+# Database
+# =====================
+*.db
+*.sqlite
+*.sqlite3
+
+# =====================
+# InsightFace / Models
+# =====================
+.insightface/
+models/
+
+# =====================
+# Uploads / Images
+# =====================
+uploads/
+images/
+*.jpg
+*.jpeg
+*.png
+
+# =====================
+# OS / IDE
+# =====================
+.DS_Store
+.idea/
+.vscode/
